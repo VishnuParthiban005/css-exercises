@@ -12,6 +12,28 @@ img {
   font-weight: 900;
 }
 
+.title-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.main-flex {
+  display: flex;
+  gap: 40px;
+  padding: 20px 100px;
+}
+
+.first-plant, .second-plant, .third-plant, .fourth-plant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
